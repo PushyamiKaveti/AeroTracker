@@ -563,6 +563,19 @@ bond_generate_messages_py/fast:
 .PHONY : bond_generate_messages_py/fast
 
 #=============================================================================
+# Target rules for targets named capture_flight_node
+
+# Build rule for target.
+capture_flight_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 capture_flight_node
+.PHONY : capture_flight_node
+
+# fast build rule for target.
+capture_flight_node/fast:
+	$(MAKE) -f core/CMakeFiles/capture_flight_node.dir/build.make core/CMakeFiles/capture_flight_node.dir/build
+.PHONY : capture_flight_node/fast
+
+#=============================================================================
 # Target rules for targets named controller_node
 
 # Build rule for target.
@@ -763,6 +776,7 @@ help:
 	@echo "... bond_generate_messages_cpp"
 	@echo "... bond_generate_messages_lisp"
 	@echo "... bond_generate_messages_py"
+	@echo "... capture_flight_node"
 	@echo "... controller_node"
 	@echo "... core_gencpp"
 	@echo "... core_generate_messages"

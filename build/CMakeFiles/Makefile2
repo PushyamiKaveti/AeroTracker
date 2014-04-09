@@ -87,7 +87,7 @@ clean: CMakeFiles/clean_test_results.dir/clean
 CMakeFiles/doxygen.dir/all:
 	$(MAKE) -f CMakeFiles/doxygen.dir/build.make CMakeFiles/doxygen.dir/depend
 	$(MAKE) -f CMakeFiles/doxygen.dir/build.make CMakeFiles/doxygen.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/pushyamikaveti/AeroTracker/build/CMakeFiles  6
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/pushyamikaveti/AeroTracker/build/CMakeFiles  7
 	@echo "Built target doxygen"
 .PHONY : CMakeFiles/doxygen.dir/all
 
@@ -196,7 +196,7 @@ gtest/preinstall:
 gtest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/pushyamikaveti/AeroTracker/build/CMakeFiles  7
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/pushyamikaveti/AeroTracker/build/CMakeFiles  8
 	@echo "Built target gtest"
 .PHONY : gtest/CMakeFiles/gtest.dir/all
 
@@ -227,7 +227,7 @@ clean: gtest/CMakeFiles/gtest.dir/clean
 gtest/CMakeFiles/gtest_main.dir/all: gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/pushyamikaveti/AeroTracker/build/CMakeFiles  8
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/pushyamikaveti/AeroTracker/build/CMakeFiles  9
 	@echo "Built target gtest_main"
 .PHONY : gtest/CMakeFiles/gtest_main.dir/all
 
@@ -457,7 +457,7 @@ clean: ros_mavlink/CMakeFiles/ros_mavlink_generate_messages.dir/clean
 ros_mavlink/CMakeFiles/ros_mavlink_generate_messages_cpp.dir/all: ros_mavlink/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
 	$(MAKE) -f ros_mavlink/CMakeFiles/ros_mavlink_generate_messages_cpp.dir/build.make ros_mavlink/CMakeFiles/ros_mavlink_generate_messages_cpp.dir/depend
 	$(MAKE) -f ros_mavlink/CMakeFiles/ros_mavlink_generate_messages_cpp.dir/build.make ros_mavlink/CMakeFiles/ros_mavlink_generate_messages_cpp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/pushyamikaveti/AeroTracker/build/CMakeFiles  9
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/pushyamikaveti/AeroTracker/build/CMakeFiles  10
 	@echo "Built target ros_mavlink_generate_messages_cpp"
 .PHONY : ros_mavlink/CMakeFiles/ros_mavlink_generate_messages_cpp.dir/all
 
@@ -488,7 +488,7 @@ clean: ros_mavlink/CMakeFiles/ros_mavlink_generate_messages_cpp.dir/clean
 ros_mavlink/CMakeFiles/ros_mavlink_generate_messages_lisp.dir/all: ros_mavlink/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 	$(MAKE) -f ros_mavlink/CMakeFiles/ros_mavlink_generate_messages_lisp.dir/build.make ros_mavlink/CMakeFiles/ros_mavlink_generate_messages_lisp.dir/depend
 	$(MAKE) -f ros_mavlink/CMakeFiles/ros_mavlink_generate_messages_lisp.dir/build.make ros_mavlink/CMakeFiles/ros_mavlink_generate_messages_lisp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/pushyamikaveti/AeroTracker/build/CMakeFiles  10
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/pushyamikaveti/AeroTracker/build/CMakeFiles  11
 	@echo "Built target ros_mavlink_generate_messages_lisp"
 .PHONY : ros_mavlink/CMakeFiles/ros_mavlink_generate_messages_lisp.dir/all
 
@@ -519,7 +519,7 @@ clean: ros_mavlink/CMakeFiles/ros_mavlink_generate_messages_lisp.dir/clean
 ros_mavlink/CMakeFiles/ros_mavlink_generate_messages_py.dir/all: ros_mavlink/CMakeFiles/std_msgs_generate_messages_py.dir/all
 	$(MAKE) -f ros_mavlink/CMakeFiles/ros_mavlink_generate_messages_py.dir/build.make ros_mavlink/CMakeFiles/ros_mavlink_generate_messages_py.dir/depend
 	$(MAKE) -f ros_mavlink/CMakeFiles/ros_mavlink_generate_messages_py.dir/build.make ros_mavlink/CMakeFiles/ros_mavlink_generate_messages_py.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/pushyamikaveti/AeroTracker/build/CMakeFiles  11 12
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/pushyamikaveti/AeroTracker/build/CMakeFiles  12 13
 	@echo "Built target ros_mavlink_generate_messages_py"
 .PHONY : ros_mavlink/CMakeFiles/ros_mavlink_generate_messages_py.dir/all
 
@@ -612,7 +612,7 @@ clean: ros_mavlink/CMakeFiles/ros_mavlink_genpy.dir/clean
 ros_mavlink/CMakeFiles/ros_mavlink_node.dir/all: ros_mavlink/CMakeFiles/ros_mavlink_generate_messages_cpp.dir/all
 	$(MAKE) -f ros_mavlink/CMakeFiles/ros_mavlink_node.dir/build.make ros_mavlink/CMakeFiles/ros_mavlink_node.dir/depend
 	$(MAKE) -f ros_mavlink/CMakeFiles/ros_mavlink_node.dir/build.make ros_mavlink/CMakeFiles/ros_mavlink_node.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/pushyamikaveti/AeroTracker/build/CMakeFiles  13
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/pushyamikaveti/AeroTracker/build/CMakeFiles  14
 	@echo "Built target ros_mavlink_node"
 .PHONY : ros_mavlink/CMakeFiles/ros_mavlink_node.dir/all
 
@@ -1016,6 +1016,7 @@ clean: ros_mavlink/CMakeFiles/std_msgs_generate_messages_py.dir/clean
 # Directory level rules for directory core
 
 # Convenience name for "all" pass in the directory.
+core/all: core/CMakeFiles/capture_flight_node.dir/all
 core/all: core/CMakeFiles/controller_node.dir/all
 core/all: core/CMakeFiles/core_generate_messages.dir/all
 core/all: core/CMakeFiles/sensor_inputs_node.dir/all
@@ -1025,6 +1026,7 @@ core/all: core/CMakeFiles/sensor_inputs_node.dir/all
 core/clean: core/CMakeFiles/bond_generate_messages_cpp.dir/clean
 core/clean: core/CMakeFiles/bond_generate_messages_lisp.dir/clean
 core/clean: core/CMakeFiles/bond_generate_messages_py.dir/clean
+core/clean: core/CMakeFiles/capture_flight_node.dir/clean
 core/clean: core/CMakeFiles/controller_node.dir/clean
 core/clean: core/CMakeFiles/core_gencpp.dir/clean
 core/clean: core/CMakeFiles/core_generate_messages.dir/clean
@@ -1137,13 +1139,48 @@ clean: core/CMakeFiles/bond_generate_messages_py.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target core/CMakeFiles/capture_flight_node.dir
+
+# All Build rule for target.
+core/CMakeFiles/capture_flight_node.dir/all:
+	$(MAKE) -f core/CMakeFiles/capture_flight_node.dir/build.make core/CMakeFiles/capture_flight_node.dir/depend
+	$(MAKE) -f core/CMakeFiles/capture_flight_node.dir/build.make core/CMakeFiles/capture_flight_node.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/pushyamikaveti/AeroTracker/build/CMakeFiles  1
+	@echo "Built target capture_flight_node"
+.PHONY : core/CMakeFiles/capture_flight_node.dir/all
+
+# Include target in all.
+all: core/CMakeFiles/capture_flight_node.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+core/CMakeFiles/capture_flight_node.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pushyamikaveti/AeroTracker/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 core/CMakeFiles/capture_flight_node.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pushyamikaveti/AeroTracker/build/CMakeFiles 0
+.PHONY : core/CMakeFiles/capture_flight_node.dir/rule
+
+# Convenience name for target.
+capture_flight_node: core/CMakeFiles/capture_flight_node.dir/rule
+.PHONY : capture_flight_node
+
+# clean rule for target.
+core/CMakeFiles/capture_flight_node.dir/clean:
+	$(MAKE) -f core/CMakeFiles/capture_flight_node.dir/build.make core/CMakeFiles/capture_flight_node.dir/clean
+.PHONY : core/CMakeFiles/capture_flight_node.dir/clean
+
+# clean rule for target.
+clean: core/CMakeFiles/capture_flight_node.dir/clean
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target core/CMakeFiles/controller_node.dir
 
 # All Build rule for target.
 core/CMakeFiles/controller_node.dir/all:
 	$(MAKE) -f core/CMakeFiles/controller_node.dir/build.make core/CMakeFiles/controller_node.dir/depend
 	$(MAKE) -f core/CMakeFiles/controller_node.dir/build.make core/CMakeFiles/controller_node.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/pushyamikaveti/AeroTracker/build/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/pushyamikaveti/AeroTracker/build/CMakeFiles  2
 	@echo "Built target controller_node"
 .PHONY : core/CMakeFiles/controller_node.dir/all
 
@@ -1206,9 +1243,9 @@ clean: core/CMakeFiles/core_gencpp.dir/clean
 # Target rules for target core/CMakeFiles/core_generate_messages.dir
 
 # All Build rule for target.
-core/CMakeFiles/core_generate_messages.dir/all: core/CMakeFiles/core_generate_messages_py.dir/all
-core/CMakeFiles/core_generate_messages.dir/all: core/CMakeFiles/core_generate_messages_cpp.dir/all
 core/CMakeFiles/core_generate_messages.dir/all: core/CMakeFiles/core_generate_messages_lisp.dir/all
+core/CMakeFiles/core_generate_messages.dir/all: core/CMakeFiles/core_generate_messages_cpp.dir/all
+core/CMakeFiles/core_generate_messages.dir/all: core/CMakeFiles/core_generate_messages_py.dir/all
 	$(MAKE) -f core/CMakeFiles/core_generate_messages.dir/build.make core/CMakeFiles/core_generate_messages.dir/depend
 	$(MAKE) -f core/CMakeFiles/core_generate_messages.dir/build.make core/CMakeFiles/core_generate_messages.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/pushyamikaveti/AeroTracker/build/CMakeFiles 
@@ -1246,7 +1283,7 @@ clean: core/CMakeFiles/core_generate_messages.dir/clean
 core/CMakeFiles/core_generate_messages_cpp.dir/all: ros_mavlink/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
 	$(MAKE) -f core/CMakeFiles/core_generate_messages_cpp.dir/build.make core/CMakeFiles/core_generate_messages_cpp.dir/depend
 	$(MAKE) -f core/CMakeFiles/core_generate_messages_cpp.dir/build.make core/CMakeFiles/core_generate_messages_cpp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/pushyamikaveti/AeroTracker/build/CMakeFiles  2
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/pushyamikaveti/AeroTracker/build/CMakeFiles  3
 	@echo "Built target core_generate_messages_cpp"
 .PHONY : core/CMakeFiles/core_generate_messages_cpp.dir/all
 
@@ -1277,7 +1314,7 @@ clean: core/CMakeFiles/core_generate_messages_cpp.dir/clean
 core/CMakeFiles/core_generate_messages_lisp.dir/all: ros_mavlink/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 	$(MAKE) -f core/CMakeFiles/core_generate_messages_lisp.dir/build.make core/CMakeFiles/core_generate_messages_lisp.dir/depend
 	$(MAKE) -f core/CMakeFiles/core_generate_messages_lisp.dir/build.make core/CMakeFiles/core_generate_messages_lisp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/pushyamikaveti/AeroTracker/build/CMakeFiles  3
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/pushyamikaveti/AeroTracker/build/CMakeFiles  4
 	@echo "Built target core_generate_messages_lisp"
 .PHONY : core/CMakeFiles/core_generate_messages_lisp.dir/all
 
@@ -1308,7 +1345,7 @@ clean: core/CMakeFiles/core_generate_messages_lisp.dir/clean
 core/CMakeFiles/core_generate_messages_py.dir/all: ros_mavlink/CMakeFiles/std_msgs_generate_messages_py.dir/all
 	$(MAKE) -f core/CMakeFiles/core_generate_messages_py.dir/build.make core/CMakeFiles/core_generate_messages_py.dir/depend
 	$(MAKE) -f core/CMakeFiles/core_generate_messages_py.dir/build.make core/CMakeFiles/core_generate_messages_py.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/pushyamikaveti/AeroTracker/build/CMakeFiles  4 5
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/pushyamikaveti/AeroTracker/build/CMakeFiles  5 6
 	@echo "Built target core_generate_messages_py"
 .PHONY : core/CMakeFiles/core_generate_messages_py.dir/all
 
@@ -1494,7 +1531,7 @@ clean: core/CMakeFiles/nodelet_generate_messages_py.dir/clean
 core/CMakeFiles/sensor_inputs_node.dir/all: core/CMakeFiles/core_generate_messages_cpp.dir/all
 	$(MAKE) -f core/CMakeFiles/sensor_inputs_node.dir/build.make core/CMakeFiles/sensor_inputs_node.dir/depend
 	$(MAKE) -f core/CMakeFiles/sensor_inputs_node.dir/build.make core/CMakeFiles/sensor_inputs_node.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/pushyamikaveti/AeroTracker/build/CMakeFiles  14
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/pushyamikaveti/AeroTracker/build/CMakeFiles  15
 	@echo "Built target sensor_inputs_node"
 .PHONY : core/CMakeFiles/sensor_inputs_node.dir/all
 

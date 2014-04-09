@@ -189,6 +189,20 @@ bond_generate_messages_py/fast:
 .PHONY : bond_generate_messages_py/fast
 
 # Convenience name for target.
+core/CMakeFiles/capture_flight_node.dir/rule:
+	cd /home/pushyamikaveti/AeroTracker/build && $(MAKE) -f CMakeFiles/Makefile2 core/CMakeFiles/capture_flight_node.dir/rule
+.PHONY : core/CMakeFiles/capture_flight_node.dir/rule
+
+# Convenience name for target.
+capture_flight_node: core/CMakeFiles/capture_flight_node.dir/rule
+.PHONY : capture_flight_node
+
+# fast build rule for target.
+capture_flight_node/fast:
+	cd /home/pushyamikaveti/AeroTracker/build && $(MAKE) -f core/CMakeFiles/capture_flight_node.dir/build.make core/CMakeFiles/capture_flight_node.dir/build
+.PHONY : capture_flight_node/fast
+
+# Convenience name for target.
 core/CMakeFiles/controller_node.dir/rule:
 	cd /home/pushyamikaveti/AeroTracker/build && $(MAKE) -f CMakeFiles/Makefile2 core/CMakeFiles/controller_node.dir/rule
 .PHONY : core/CMakeFiles/controller_node.dir/rule
@@ -356,6 +370,30 @@ sensor_inputs_node/fast:
 	cd /home/pushyamikaveti/AeroTracker/build && $(MAKE) -f core/CMakeFiles/sensor_inputs_node.dir/build.make core/CMakeFiles/sensor_inputs_node.dir/build
 .PHONY : sensor_inputs_node/fast
 
+src/capture_flight.o: src/capture_flight.cpp.o
+.PHONY : src/capture_flight.o
+
+# target to build an object file
+src/capture_flight.cpp.o:
+	cd /home/pushyamikaveti/AeroTracker/build && $(MAKE) -f core/CMakeFiles/capture_flight_node.dir/build.make core/CMakeFiles/capture_flight_node.dir/src/capture_flight.cpp.o
+.PHONY : src/capture_flight.cpp.o
+
+src/capture_flight.i: src/capture_flight.cpp.i
+.PHONY : src/capture_flight.i
+
+# target to preprocess a source file
+src/capture_flight.cpp.i:
+	cd /home/pushyamikaveti/AeroTracker/build && $(MAKE) -f core/CMakeFiles/capture_flight_node.dir/build.make core/CMakeFiles/capture_flight_node.dir/src/capture_flight.cpp.i
+.PHONY : src/capture_flight.cpp.i
+
+src/capture_flight.s: src/capture_flight.cpp.s
+.PHONY : src/capture_flight.s
+
+# target to generate assembly for a file
+src/capture_flight.cpp.s:
+	cd /home/pushyamikaveti/AeroTracker/build && $(MAKE) -f core/CMakeFiles/capture_flight_node.dir/build.make core/CMakeFiles/capture_flight_node.dir/src/capture_flight.cpp.s
+.PHONY : src/capture_flight.cpp.s
+
 src/controller.o: src/controller.cpp.o
 .PHONY : src/controller.o
 
@@ -413,6 +451,7 @@ help:
 	@echo "... bond_generate_messages_cpp"
 	@echo "... bond_generate_messages_lisp"
 	@echo "... bond_generate_messages_py"
+	@echo "... capture_flight_node"
 	@echo "... controller_node"
 	@echo "... core_gencpp"
 	@echo "... core_generate_messages"
@@ -432,6 +471,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... sensor_inputs_node"
 	@echo "... test"
+	@echo "... src/capture_flight.o"
+	@echo "... src/capture_flight.i"
+	@echo "... src/capture_flight.s"
 	@echo "... src/controller.o"
 	@echo "... src/controller.i"
 	@echo "... src/controller.s"

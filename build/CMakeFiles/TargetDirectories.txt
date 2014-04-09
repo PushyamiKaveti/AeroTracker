@@ -1,6 +1,7 @@
 /home/pushyamikaveti/AeroTracker/build/core/CMakeFiles/bond_generate_messages_cpp.dir
 /home/pushyamikaveti/AeroTracker/build/core/CMakeFiles/bond_generate_messages_lisp.dir
 /home/pushyamikaveti/AeroTracker/build/core/CMakeFiles/bond_generate_messages_py.dir
+/home/pushyamikaveti/AeroTracker/build/core/CMakeFiles/capture_flight_node.dir
 /home/pushyamikaveti/AeroTracker/build/CMakeFiles/clean_test_results.dir
 /home/pushyamikaveti/AeroTracker/build/core/CMakeFiles/controller_node.dir
 /home/pushyamikaveti/AeroTracker/build/core/CMakeFiles/core_gencpp.dir

@@ -112,6 +112,7 @@ include_directories(include
 # add_executable(core_node src/core_node.cpp)
 add_executable(sensor_inputs_node src/sensor_inputs.cpp)
 add_executable(controller_node src/controller.cpp)
+add_executable(capture_flight_node src/capture_flight.cpp)
 
 ## Add cmake target dependencies of the executable/library
 ## as an example, message headers may need to be generated before nodes
@@ -120,6 +121,7 @@ add_dependencies(sensor_inputs_node core_generate_messages_cpp)
 
 ## Specify libraries to link a library or executable target against
 target_link_libraries(sensor_inputs_node ${catkin_LIBRARIES} ${OpenCV_LIBS})
+target_link_libraries(capture_flight_node ${catkin_LIBRARIES} ${OpenCV_LIBS})
 target_link_libraries(controller_node
  ${catkin_LIBRARIES}
 )
