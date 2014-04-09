@@ -1,0 +1,8 @@
+prefix=/home/pushyamikaveti/AeroTracker/install
+
+Name: ros_mavlink
+Description: Description of ros_mavlink
+Version: 0.0.0
+Cflags: -I/home/pushyamikaveti/AeroTracker/install/include
+Libs: -L/home/pushyamikaveti/AeroTracker/install/lib 
+Requires: message_runtime

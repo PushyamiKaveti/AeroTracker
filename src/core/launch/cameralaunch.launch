@@ -1,0 +1,26 @@
+<!--xml-->
+<launch>
+  <node ns="camera" pkg="uvc_camera" type="uvc_camera_node" name="uvc_camera" output="screen">
+    <param name="width" type="int" value="640" />
+    <param name="height" type="int" value="480" />
+    <param name="fps" type="int" value="30" />
+    <param name="frame" type="string" value="webcam" />
+    <param name="device" type="string" value="/dev/video1" />
+  </node>
+  
+  <!--<node ns="sonar" pkg="rosserial_python" type="serial_node.py" name="sonar">
+    <param name="port" type="String" value="/dev/ttyACM0" />
+  </node> -->
+  
+ <!--<node ns="mavlink" pkg="ros_mavlink" type="ros_mavlink_node" name="mavlink">
+     
+  </node>
+  
+  
+  <node ns="camera_sensor" pkg="cameratest" type="sensor_inputs_node" name="camera_sensor">
+  </node>
+  
+   <node ns="controller" pkg="cameratest" type="controller_node" name="controller">
+  </node> -->
+  
+</launch>

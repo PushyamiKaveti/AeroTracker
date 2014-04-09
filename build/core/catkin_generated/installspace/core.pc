@@ -1,0 +1,8 @@
+prefix=/home/pushyamikaveti/AeroTracker/install
+
+Name: core
+Description: Description of core
+Version: 0.0.0
+Cflags: -I/home/pushyamikaveti/AeroTracker/install/include
+Libs: -L/home/pushyamikaveti/AeroTracker/install/lib 
+Requires: message_runtime

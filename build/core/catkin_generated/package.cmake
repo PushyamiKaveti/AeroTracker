@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "core")
+set(core_MAINTAINER "pushyamikaveti <pushyamikaveti@todo.todo>")
+set(core_DEPRECATED "")
+set(core_VERSION "0.0.0")
+set(core_BUILD_DEPENDS "message_generation" "cv_bridge" "image_transport" "opencv2" "roscpp" "std_msgs" "uvc_camera" "ros_mavlink")
+set(core_RUN_DEPENDS "message_runtime" "cv_bridge" "image_transport" "opencv2" "roscpp" "std_msgs" "uvc_camera" "ros_mavlink")
+set(core_BUILDTOOL_DEPENDS "catkin")
