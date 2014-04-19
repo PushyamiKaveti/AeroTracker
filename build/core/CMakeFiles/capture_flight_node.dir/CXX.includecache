@@ -6,6 +6,22 @@
 
 #IncludeRegexTransform: 
 
+/home/pushyamikaveti/AeroTracker/devel/include/core/Camera_msgs.h
+string
+-
+vector
+-
+map
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
+
 /home/pushyamikaveti/AeroTracker/src/core/src/capture_flight.cpp
 opencv2/highgui/highgui.hpp
 /home/pushyamikaveti/AeroTracker/src/core/src/opencv2/highgui/highgui.hpp
@@ -23,7 +39,9 @@ opencv2/highgui/highgui.hpp
 -
 opencv2/core/core.hpp
 -
-cameratest/Camera_msgs.h
+core/Camera_msgs.h
+-
+boost/thread.hpp
 -
 
 /opt/ros/hydro/include/XmlRpcDecl.h
